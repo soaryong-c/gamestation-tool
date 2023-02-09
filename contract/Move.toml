@@ -1,0 +1,12 @@
+[package]
+name = "GameCenter"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { local = "../../framework/aptos-framework" }
+
+[addresses]
+std = "0x1"
+source_addr = "14fe3636fd6cd63e1b4bd51606c044fd6a6abac2f64f26685114000c341cd761"
+gamestation = "_"
+# change it to `source_addr = "_" when calling `create-resource-account-and-publish-package` from the cli
